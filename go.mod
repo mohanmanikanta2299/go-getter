@@ -12,7 +12,7 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-safetemp v1.0.0
 	github.com/hashicorp/go-version v1.6.0
-	github.com/klauspost/compress v1.15.11
+	github.com/klauspost/compress v1.17.11
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.4 // indirect
 	github.com/mattn/go-runewidth v0.0.4 // indirect
