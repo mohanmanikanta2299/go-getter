@@ -19,12 +19,12 @@ jobs:
       contents: read
     steps:
       - name: Setup go
-        uses: actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe # v4.1.0
+        uses: actions/setup-go@v2 # v4.1.0
         with:
           go-version: ${{ matrix.go-version }}
       
       - name: Checkout code
-        uses: actions/checkout@v3 # v4.0.0
+        uses: actions/checkout@v2 # v4.0.0
 
       - name: Create test directory
         run: |
